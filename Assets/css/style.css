@@ -40,7 +40,7 @@ body {
     text-decoration: underline;
   }
 
-  .cover {
+.cover {
     position: relative;
   }
 
@@ -56,6 +56,10 @@ body {
     text-decoration: underline;
   }
   
+.work a:hover {
+  background-color: #13293d;
+}
+
 
   
   footer {
