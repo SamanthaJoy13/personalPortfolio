@@ -35,6 +35,16 @@ nav a:hover {
   color: #fff;
 }
 
+.banner {
+  position: relative;
+}
+
+.first-txt {
+  position: absolute;
+  top: 17px;
+  left: 50px;
+}
+
 main {
   display: flex;
 }
