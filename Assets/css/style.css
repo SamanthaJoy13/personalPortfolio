@@ -35,7 +35,22 @@ nav a:hover {
   color: #fff;
 }
 
+main {
+  display: flex;
+}
 
+aside {
+  flex: 30%;
+  background-color: #b9c6ae;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+section {
+  flex: 70%;
+  background-color: #fff;
+  padding: 20px;
+}
   
   /*footer {
     width: 100%;
@@ -45,4 +60,12 @@ nav a:hover {
     background: #13293d;
     color: #fff;
     margin-top: auto;
-  }
+  }*/
+
+  .sample-img {
+  background-color: #fff;
+  width: 100%;
+  padding: 20px;
+  height: 200px;
+  border: 1px solid black;
+}
