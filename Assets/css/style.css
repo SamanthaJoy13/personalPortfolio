@@ -37,12 +37,20 @@ nav a:hover {
 
 .banner {
   position: relative;
+  text-align: center;
+  color: white;
 }
 
-.first-txt {
+.header {
+  height: 200px;
+  width: 2000px;
+}
+
+.centered {
   position: absolute;
-  top: 17px;
-  left: 50px;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
 }
 
 main {
@@ -51,7 +59,7 @@ main {
 
 aside {
   flex: 30%;
-  background-color: #b9c6ae;
+  background-color: #9ec997;
   padding: 20px;
   flex-wrap: wrap;
 }
@@ -72,10 +80,3 @@ section {
     margin-top: auto;
   }*/
 
-  .sample-img {
-  background-color: #fff;
-  width: 100%;
-  padding: 20px;
-  height: 200px;
-  border: 1px solid black;
-}
