@@ -53,6 +53,12 @@ nav a:hover {
   transform: translate(-50%, -50%);
 }
 
+.vl {
+  border-right: 6px solid rgb(73, 74, 73);
+  height: 500px;
+  width: 200px;
+}
+
 main {
   display: flex;
 }
