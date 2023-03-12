@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -11,12 +17,6 @@ h1 {
   font-size: 200%;
   background-color: #9cce9a;
   color: #3b7860;
-}
-
-h2 {
-  margin: 2% 0;
-  font-size: 250%;
-  text-decoration: underline;
 }
 
 nav ul {
@@ -53,36 +53,21 @@ nav a:hover {
   transform: translate(-50%, -50%);
 }
 
+
+h2 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
 .vl {
   border-right: 6px solid rgb(73, 74, 73);
-  height: 500px;
+  height: 200px;
   width: 200px;
 }
 
-main {
-  display: flex;
+
+.aboutMe {
+
 }
 
-aside {
-  flex: 30%;
-  background-color: #9ec997;
-  padding: 20px;
-  flex-wrap: wrap;
-}
-
-section {
-  flex: 70%;
-  background-color: #fff;
-  padding: 20px;
-}
-  
-  /*footer {
-    width: 100%;
-    bottom: 0;
-    padding: 20px;
-    text-align: center;
-    background: #13293d;
-    color: #fff;
-    margin-top: auto;
-  }*/
 
