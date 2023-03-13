@@ -65,6 +65,10 @@ h2 {
   width: 200px;
 }
 
+.me {
+  height: 300px;
+  width: 300px;
+}
 
 .aboutMe {
 
@@ -75,5 +79,5 @@ h2 {
 }
 
 .contactMe {
-  
+
 }
