@@ -61,8 +61,6 @@ h2 {
 
 .vl {
   border-right: 6px solid rgb(73, 74, 73);
-  height: 200px;
-  width: 200px;
 }
 
 .me {
@@ -83,6 +81,9 @@ h2 {
 .first-repo {
   height: 200px;
   width: 400px;
+  border-style: solid;
+  border-color: #9cce9a;
+  border-width: 8px;
 }
 
 .contactMe {
