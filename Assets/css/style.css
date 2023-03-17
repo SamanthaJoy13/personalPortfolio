@@ -66,16 +66,18 @@ h2 {
 }
 
 .me {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
 }
 
 .aboutMe {
-
+  columns: auto;  
+  columns: 2;
 }
 
 .myWork {
-
+  columns: auto;
+  columns: 2;
 }
 
 .first-repo {
@@ -83,7 +85,9 @@ h2 {
   width: 400px;
 }
 
-
 .contactMe {
-
+  columns: auto;
+  columns: 2;
 }
+
+
