@@ -63,24 +63,34 @@ h2 {
   border-right: 6px solid rgb(73, 74, 73);
 }
 
+.aboutMe {
+  columns: auto;  
+  columns: 2;
+}
+
 .me {
   height: 200px;
   width: 200px;
 }
 
-.aboutMe {
-  columns: auto;  
-  columns: 2;
-}
+
 
 .myWork {
   columns: auto;
   columns: 2;
 }
 
+.first-project {
+  height: 400px;
+  width: 500px;
+  border-style: solid;
+  border-color: #9cce9a;
+  border-width: 8px;
+}
+
 .first-repo {
   height: 200px;
-  width: 400px;
+  width: 500px;
   border-style: solid;
   border-color: #9cce9a;
   border-width: 8px;
