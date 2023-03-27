@@ -68,9 +68,8 @@ h2 {
   columns: 2;
 }
 
-.me {
-  height: 200px;
-  width: 200px;
+.aboutP {
+  display: inline-block;
 }
 
 
@@ -97,8 +96,7 @@ h2 {
 }
 
 .contactMe {
-  columns: auto;
-  columns: 2;
+ 
 }
 
 
