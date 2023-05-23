@@ -57,16 +57,23 @@ h2 {
   border-width: 8px;
 }
 
+.second-project {
+  height: 400px;
+  width: 500px;
+  border-style: solid;
+  border-color: #181818;
+  border-width: 8px;
+  float: right;
+}
+
 .first-repo {
   height: 200px;
   width: 500px;
   border-style: solid;
   border-color: #181818;
   border-width: 8px;
+  float: right;
 }
 
-.contactMe {
- 
-}
 
 
